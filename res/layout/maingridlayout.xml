@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainGridLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/gridImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:paddingTop="5dip"
+        android:src="@drawable/notepadicon" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/gridTextView"
+         android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_alignBottom="@+id/gridTextView"
+        android:layout_alignParentRight="true"
+       
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/gridTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+          android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_toRightOf="@+id/gridImageView"
+        android:maxLength="15" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NotePad</string> <!-- Not final name -->
+    <string name="mainButtonAddNote">Add Note</string>
+    <string name="mainButtonShowMap">Show in Map</string>
+    <string name="noteTitle">Title:</string>
+    <string name="notehintTitle">Note Title</string>
+    <string name="noteContent">Note Content</string>
+    <string name="note_created_date">Date</string>
+    <string name="noteDate">date:</string>
+    <string name="noteShowMap">Show in Map</string>
+    <string name="noteMenuSave">Save Note</string>
+    <string name="noteMenuEdit">Edit Note</string>
+    <string name="noteMenuDelete">Delete Note</string>
+    <string name="noteMenuCancel">Cancel</string>
+    <string name="noteMenuShare">Share</string>
+    <string name="emptyNote">Empty Note</string>
+    <string name="save_note">save</string>
+    <string name="search_note">search note</string>
+    <string name="defaultNoteName">Note</string>
+
+</resources>
